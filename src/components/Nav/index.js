@@ -1,8 +1,8 @@
 import { useEffect, useState, useContext } from "react"
 
-import darkModeContext from "./context/darkModeContext"
+import darkModeContext from "../../context/darkModeContext"
 
-import "./Nav.css"
+import "./Nav.scss"
 
 function Nav() {
   const [show, handleShow] = useState(false)
@@ -50,7 +50,7 @@ function Nav() {
             style={{ position: "fixed", right: "60px" }}
             onChange={changeThemeMode}
           />
-          <span class="nav__switch__slider round"></span>
+          <span className="nav__switch__slider round"></span>
         </label>
         <img
           className="nav__avatar"

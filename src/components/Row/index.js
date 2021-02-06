@@ -2,13 +2,13 @@ import { useState, useEffect, useContext } from "react"
 import { Splide, SplideSlide } from "@splidejs/react-splide"
 import YouTube from "react-youtube"
 
-import darkModeContext from "./context/darkModeContext"
+import darkModeContext from "../../context/darkModeContext"
 
-import axios from "./axios"
+import axios from "../../api/axios"
 
 import "@splidejs/splide/dist/css/themes/splide-default.min.css"
 
-import "./Row.css"
+import "./Row.scss"
 
 const baseUrl = "https://image.tmdb.org/t/p/original/"
 

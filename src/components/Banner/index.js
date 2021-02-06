@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react"
-import axios from "./axios"
+import axios from "../../api/axios"
 
-import requests from "./requests"
+import requests from "../../api/requests"
 
-import "./Banner.css"
+import "./Banner.scss"
 
 const baseUrl = "https://image.tmdb.org/t/p/original/"
 

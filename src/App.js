@@ -1,14 +1,14 @@
 import { useContext } from "react"
 
-import Row from "./Row"
-import Banner from "./Banner"
-import Nav from "./Nav"
+import Row from "./components/Row"
+import Banner from "./components/Banner"
+import Nav from "./components/Nav"
 
 import darkModeContext from "./context/darkModeContext"
 
-import requests from "./requests"
+import requests from "./api/requests"
 
-import "./App.css"
+import "./App.scss"
 
 function App() {
   const { darkMode: isDarkMode } = useContext(darkModeContext)

@@ -5,7 +5,7 @@ import App from "./App"
 
 import darkModeContext from "./context/darkModeContext"
 
-import "./index.css"
+import "./index.scss"
 
 function ThemeProvider({ children }) {
   const [darkMode, setDarkMode] = useState(false)
